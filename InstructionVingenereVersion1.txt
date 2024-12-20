@@ -1,0 +1,21 @@
+
+Command Line Instructions for Vingenere Cipher(Version 1):
+
+1. Navigate to the Program Directory:
+   cd "C:'path to .exe file'
+
+2. Run the Program for Encryption:
+   VingenereCipher.exe --en -i input.txt -k key.txt -o encrypted_output.txt
+
+3. Run the Program for Decryption:
+   VingenereCipher.exe --de -i encrypted_output.txt -k key.txt -o decrypted_output.txt
+
+4. Display Help Menu:
+   VingenereCipher.exe -h
+
+Explanation:
+- --en: Start encryption mode.
+- --de: Start decryption mode.
+- -i <file>: Input file with the sentence or encrypted text.
+- -k <file>: Input file with the encryption key.
+- -o <file>: Output file to save results.
